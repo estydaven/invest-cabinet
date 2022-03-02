@@ -1976,9 +1976,10 @@ border-radius: 30px;
 	border-radius: 30px;
 	overflow: hidden
 }
-.article-img {
+.article-content .article-img {
 	object-fit: cover;
-	height: 230px;
+	height: 400px;
+	width: 100%;
 }
 .extra-image {
 	max-height: 230px;
@@ -2089,6 +2090,9 @@ border-radius: 30px;
 	   }
 	   .article-content p strong {
 		   color: #ffffff;
+	   }
+	   .article-content a {
+		   color: #be6565;
 	   }
 	  @media screen and (min-width: 1024px) {
 		.article-content p {
