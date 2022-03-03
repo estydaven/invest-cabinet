@@ -63,20 +63,3 @@ $('.promotion__button_denied').on('click', function() {
         cryptoWrapper.removeClass('hidden');
         editWrapper.addClass('hidden');        
 });
-
-$(document).ready(function () {  
-    $('.homework-hidden').hide();  
-    $(".show_hide").on("click", function () {
-        var txt = $(".homework-hidden").is(':visible') ? 'Правильный ответ' : 'Скрыть правильный ответ';
-        $(".show_hide").text(txt);
-        $('.homework-hidden').slideToggle(200);
-    });
-});
-$(document).ready(function () {  
-    $('.homework-hidden2').hide(); 
-    $(".show_hide2").on("click", function () {
-        var txt = $(".homework-hidden2").is(':visible') ? 'Правильный ответ' : 'Скрыть правильный ответ';
-        $(".show_hide2").text(txt);
-        $('.homework-hidden2').slideToggle(200);
-    });
-});
